@@ -10,11 +10,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: process.env.npm_package_name || '',
+    title: process.env.npm_package_name || 'МосМебель || Шкафы купе Стенли и кухонные гарнитуры в Москве и Московской области',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || 'Компания МосМебель предлагает кухонные гарнитуры по индивидуальному заказу и недорогие шкафы купе стенли по низким ценам в Москве и Московской области' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
