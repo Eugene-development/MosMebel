@@ -10,7 +10,7 @@
             stroke-width="2"/>
         </svg>
         <p class="ml-2 text-base text-red-900 animate-pulse">
-          8 (930) 688-88-62
+          8 (909) 299-53-13
         </p>
       </div>
       <div class="flex items-center">
@@ -34,7 +34,7 @@
             stroke-width="2"/>
         </svg>
         <p class="ml-2 text-base">
-          orbita88yuliya@mail.ru
+          komodoff2010@gmail.com
         </p>
       </div>
 
