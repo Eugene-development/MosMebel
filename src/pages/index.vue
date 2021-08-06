@@ -1,31 +1,4 @@
 <template>
-  <!--
-    This example requires Tailwind CSS v2.0+
-
-    This example requires some changes to your config:
-
-    ```
-    // tailwind.config.js
-    const colors = require('tailwindcss/colors')
-
-    module.exports = {
-      // ...
-      theme: {
-        extend: {
-          colors: {
-            teal: colors.teal,
-            cyan: colors.cyan,
-          }
-        }
-      },
-      plugins: [
-        // ...
-        require('@tailwindcss/forms'),
-        require('@tailwindcss/aspect-ratio'),
-      ]
-    }
-    ```
-  -->
   <div class="bg-white">
     <div class="relative overflow-hidden">
       <header class="relative">
@@ -169,7 +142,7 @@
                 <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0">
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
 <!--                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://tailwindui.com/img/component-images/cloud-illustration-teal-cyan.svg" alt="">-->
-                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="https://rrgarage.ru/UserFiles/Image/schkaf-kupe.png" alt="">
+                  <img class="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none" src="/foto/schkaf-kupe.png" alt="shkaf">
                 </div>
               </div>
             </div>
@@ -197,7 +170,7 @@
         <!-- Feature section with grid -->
         <div class="relative bg-white py-16 sm:py-24 lg:py-32">
           <div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-            <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Deploy faster</h2>
+            <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">наши услуги</h2>
             <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
               Everything you need to deploy your app
             </p>
@@ -217,7 +190,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Push to Deploy</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Консультация</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi vitae lobortis.
                       </p>
@@ -236,7 +209,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">SSL Certificates</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Замер</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Qui aut temporibus nesciunt vitae dicta repellat sit dolores pariatur. Temporibus qui illum aut.
                       </p>
@@ -255,7 +228,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Simple Queues</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Эскиз</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Rerum quas incidunt deleniti quaerat suscipit mollitia. Amet repellendus ut odit dolores qui.
                       </p>
@@ -274,7 +247,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Advanced Security</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Доставка</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ullam laboriosam est voluptatem maxime ut mollitia commodi. Et dignissimos suscipit perspiciatis.
                       </p>
@@ -294,7 +267,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Powerful API</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Подъём</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Ab a facere voluptatem in quia corrupti veritatis aliquam. Veritatis labore quaerat ipsum quaerat id.
                       </p>
@@ -313,7 +286,7 @@
                         </svg>
                       </span>
                       </div>
-                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Database Backups</h3>
+                      <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Установка</h3>
                       <p class="mt-5 text-base text-gray-500">
                         Quia qui et est officia cupiditate qui consectetur. Ratione similique et impedit ea ipsum et.
                       </p>
@@ -361,9 +334,9 @@
         <div class="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
           <div class="relative">
             <div class="text-center mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
-              <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Learn</h2>
+              <h2 class="text-base font-semibold tracking-wider text-cyan-600 uppercase">Отзывы</h2>
               <p class="mt-2 text-3xl font-extrabold text-gray-900 tracking-tight sm:text-4xl">
-                Helpful Resources
+                Наши лучшие клиенты
               </p>
               <p class="mt-5 mx-auto max-w-prose text-xl text-gray-500">
                 Phasellus lorem quam molestie id quisque diam aenean nulla in. Accumsan in quis quis nunc, ullamcorper malesuada. Eleifend condimentum id viverra nulla.
@@ -534,7 +507,7 @@
               <p class="mt-3 text-lg text-gray-300">
                 Если у вас сложности в выборе материалов для шкафа купе или кухонного гарнитура наши специалисты могут помочь вам сориентироваться в решении этого вопроса.
               </p>
-              <div class="mt-8 w-full">
+              <div class="mt-8">
                 <div class="inline-flex rounded-md shadow">
                   <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
                     Написать нам
@@ -725,7 +698,7 @@
           </div>
           <div class="mt-12 border-t border-gray-200 py-8">
             <p class="text-base text-gray-400 xl:text-center">
-              &copy; 2020-2021 "МосМебель"
+              &copy; 2020-2021 "МосМебель". Сайт изготовлен компанией SYMAX.
             </p>
           </div>
         </div>
