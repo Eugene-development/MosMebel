@@ -26,4 +26,8 @@
   h3 {
     @apply text-lg;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+
 }
